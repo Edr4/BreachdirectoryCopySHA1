@@ -40,12 +40,7 @@ while (match = regex.exec(htmlContent)) {
   passwordList += `${hash}:${password}\n`;
 }
 
-const tempTextArea = document.createElement('textarea');
-tempTextArea.value = passwordList;
-document.body.appendChild(tempTextArea);
-tempTextArea.select();
-document.execCommand("copy");
-document.body.removeChild(tempTextArea);
+copy(passwordList)
 
 ```
 
