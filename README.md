@@ -48,3 +48,6 @@ document.execCommand("copy");
 document.body.removeChild(tempTextArea);
 
 ```
+
+SHA1 -> https://hashes.com/en/decrypt/hash
+
